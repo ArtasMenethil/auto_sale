@@ -9,3 +9,4 @@ class Zakaz(serializers.ModelSerializer):
         model = OrderBuy
         fields = ("id", "date", "auto_color", "auto_brand", "auto_model", "amount")
 
+

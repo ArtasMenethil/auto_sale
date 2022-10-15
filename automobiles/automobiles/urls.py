@@ -11,6 +11,7 @@ urlpatterns = [
     path('api/zakaz/delete/<int:pk>/', ZakazAPIDelete.as_view()),
     path('api/zakaz/sort/', ZakazAPIFilter.as_view()),
     path('api/zakaz/sort_auto/', ZakazAPIFilter.as_view()),
+
 ]
 
 urlpatterns += doc_url
